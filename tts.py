@@ -2,9 +2,9 @@ import os
 import subprocess
 import time
 
-PIPER_BIN = "/home/arora/piper/piper/piper"
-VOICE_MODEL = "/home/arora/piper/voices/en_US-amy-medium.onnx"
-OUT_DIR = "/home/arora/assistant/data/out"
+PIPER_BIN = (path here)
+VOICE_MODEL = (path here)
+OUT_DIR = (path here)
 
 os.makedirs(OUT_DIR, exist_ok=True)
 
@@ -40,3 +40,4 @@ def speak(text: str) -> str:
     except Exception as e:
         print("TTS Error:", e)
         return ""
+
