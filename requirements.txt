@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-dotenv
+faster-whisper
+groq
+beautifulsoup4
+requests
+pytz
+python-multipart
